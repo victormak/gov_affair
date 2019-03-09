@@ -74,7 +74,7 @@
 			{
 				"pagePath": "pages/myshot/myshot",
 				"iconPath": "static/img/tabbar/add.png",
-				"selectedIconPath": "static/img/tabbar/addactive.png",
+				"selectedIconPath": "static/img/tabbar/addactive.png"
 			},
 			{
 				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
