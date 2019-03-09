@@ -4,7 +4,7 @@
 			<text>标题</text>
 		</view>
 		<view class="feedback-body">
-			<textarea placeholder="请输入标题..." v-model="sendDate.content" class="feedback-title-textare" />
+			<textarea placeholder="请输入标题..." v-model="sendDate.title" class="feedback-title-textare" />
 		</view>
 		<view class='feedback-title'>
 			<text>描述</text>
@@ -45,13 +45,10 @@
     export default {
         data() {
             return {
-                msgContents: ["界面显示错乱", "启动缓慢，卡出翔了", "UI无法直视，丑哭了", "偶发性崩溃"],
-                stars: [1, 2, 3, 4, 5],
                 imageList: [],
                 sendDate: {
-                    score: 0,
                     content: "",
-                    contact: ""
+                    title: ""
                 }
             }
         },

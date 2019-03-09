@@ -7,6 +7,7 @@
     "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
     "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
     "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
+    "pages/ucenter/mycenter",
     "pages/myshot/myshot"
   ],
   "subPackages": [],
@@ -47,7 +48,7 @@
         "text": "消息"
       },
       {
-        "pagePath": "pages/ucenter/ucenter",
+        "pagePath": "pages/ucenter/mycenter",
         "iconPath": "static/img/tabbar/me.png",
         "selectedIconPath": "static/img/tabbar/meactive.png",
         "text": "我的"

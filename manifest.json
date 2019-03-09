@@ -41,6 +41,9 @@
             "ios" : {},
             /* ios打包配置 */
             "sdkConfigs" : {}
+        },
+        "splashscreen" : {
+            "waiting" : true
         }
     },
     /* SDK配置 */
