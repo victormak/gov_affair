@@ -1,0 +1,2 @@
+<import src="./wkiwi-swipe-action.vue.wxml" />
+    <template is="3b7b54ec" data="{{ ...$root['0'], $root }}"/>

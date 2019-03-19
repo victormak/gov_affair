@@ -1,14 +1,17 @@
 {
   "pages": [
     "pages/detail/detail",
-    "pages/tabbar/tabbar-2/tabbar-2",
+    "pages/convinence/convinence/convinence",
     "pages/tabbar/tabbar-4/tabbar-4",
+    "pages/message/wkiwi-swipe-action",
     "pages/ucenter/ucenter",
     "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
     "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
     "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
     "pages/ucenter/mycenter",
-    "pages/myshot/myshot"
+    "pages/message/im-chat",
+    "pages/myshot/myshot",
+    "pages/convinence/convinence/convinence"
   ],
   "subPackages": [],
   "window": {
@@ -31,7 +34,7 @@
         "text": "政务"
       },
       {
-        "pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+        "pagePath": "pages/convinence/convinence/convinence",
         "iconPath": "static/img/tabbar/guanzhu.png",
         "selectedIconPath": "static/img/tabbar/guanzhuactive.png",
         "text": "便民"
@@ -42,7 +45,7 @@
         "selectedIconPath": "static/img/tabbar/addactive.png"
       },
       {
-        "pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+        "pagePath": "pages/message/wkiwi-swipe-action",
         "iconPath": "static/img/tabbar/news.png",
         "selectedIconPath": "static/img/tabbar/newsactive.png",
         "text": "消息"

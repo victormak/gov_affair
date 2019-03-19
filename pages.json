@@ -12,13 +12,19 @@
 			"style": {}
 		},
 		{
-			"path": "pages/tabbar/tabbar-2/tabbar-2",
+			"path": "pages/convinence/convinence/convinence",
 			"style": {
 				"navigationBarTitleText": "便民"
 			}
 		},
 		{
 			"path": "pages/tabbar/tabbar-4/tabbar-4",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/message/wkiwi-swipe-action",
 			"style": {
 				"navigationBarTitleText": "消息"
 			}
@@ -43,7 +49,15 @@
 		},
 		{
 			"path": "pages/ucenter/mycenter",
-			"style": {}
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/message/im-chat",
+			"style": {
+				"navigationBarTitleText": "chat"
+			}
 		},
 		{
 		    "path" : "pages/myshot/myshot",
@@ -51,7 +65,11 @@
 		    	"navigationBarTitleText": "随手拍"
 		    }
 		}
-	],
+	    ,{
+            "path" : "pages/convinence/convinence/convinence",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "Demo",
@@ -70,7 +88,7 @@
 				"text": "政务"
 			},
 			{
-				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+				"pagePath": "pages/convinence/convinence/convinence",
 				"iconPath": "static/img/tabbar/guanzhu.png",
 				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
 				"text": "便民"
@@ -81,7 +99,7 @@
 				"selectedIconPath": "static/img/tabbar/addactive.png"
 			},
 			{
-				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+				"pagePath": "pages/message/wkiwi-swipe-action",
 				"iconPath": "static/img/tabbar/news.png",
 				"selectedIconPath": "static/img/tabbar/newsactive.png",
 				"text": "消息"

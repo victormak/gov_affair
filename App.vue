@@ -21,4 +21,5 @@ export default {
 <style>
 /*每个页面公共css */ 
 @import './common/uni.css';
+@import url("./common/common.css");
 </style>
