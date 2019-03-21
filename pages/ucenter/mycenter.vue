@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="center">
 		<view class="header" v-bind:class="{ status: isH5Plus }">
 			<view class="userinfo">
 				<view class="face"><image :src="userinfo.face"></image></view>

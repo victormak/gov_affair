@@ -12,7 +12,7 @@
 			"style": {}
 		},
 		{
-			"path": "pages/convinence/convinence/convinence",
+			"path": "pages/convinence/convinence",
 			"style": {
 				"navigationBarTitleText": "便民"
 			}
@@ -33,6 +33,29 @@
 			"path": "pages/ucenter/ucenter",
 			"style": {
 				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/find-pwd/find-pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/reg-pwd/reg-pwd",
+			"style": {
+				"navigationBarTitleText": "密码设置"
 			}
 		},
 		{
@@ -65,10 +88,6 @@
 		    	"navigationBarTitleText": "随手拍"
 		    }
 		}
-	    ,{
-            "path" : "pages/convinence/convinence/convinence",
-            "style" : {}
-        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -88,7 +107,7 @@
 				"text": "政务"
 			},
 			{
-				"pagePath": "pages/convinence/convinence/convinence",
+				"pagePath": "pages/convinence/convinence",
 				"iconPath": "static/img/tabbar/guanzhu.png",
 				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
 				"text": "便民"
@@ -105,7 +124,7 @@
 				"text": "消息"
 			},
 			{
-				"pagePath": "pages/ucenter/mycenter",
+				"pagePath": "pages/login/login",
 				"iconPath": "static/img/tabbar/me.png",
 				"selectedIconPath": "static/img/tabbar/meactive.png",
 				"text": "我的"

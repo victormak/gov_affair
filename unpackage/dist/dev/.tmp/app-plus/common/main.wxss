@@ -1683,7 +1683,7 @@ radio-group ._label, checkbox-group ._label{
 } 
 /* 四图格 */
 .uni-grid-12 {
-	background: #f2f2f2;
+	background: #fff;
 	/* width: 750upx; */
 	width: 100%;
 	display: -webkit-box;
@@ -1723,7 +1723,7 @@ radio-group ._label, checkbox-group ._label{
 	        justify-content: center;
 	border-bottom: 2rpx solid;
 	border-right: 2rpx solid;
-	border-color: #eee;
+	border-color: #fff;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 }

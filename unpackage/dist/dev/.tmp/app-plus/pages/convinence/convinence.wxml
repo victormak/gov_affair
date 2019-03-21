@@ -1,0 +1,2 @@
+<import src="./convinence.vue.wxml" />
+    <template is="b66d9b0c" data="{{ ...$root['0'], $root }}"/>

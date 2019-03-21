@@ -20,7 +20,7 @@
 
 /* 四图格 */
 .uni-grid-12 {
-	background: #f2f2f2;
+	background: #fff;
 	/* width: 750upx; */
 	width: 100%;
 	display: flex;
@@ -38,7 +38,7 @@
 	justify-content: center;
 	border-bottom: 2upx solid;
 	border-right: 2upx solid;
-	border-color: #eee;
+	border-color: #fff;
 	box-sizing: border-box;
 }
 .no-border-right {

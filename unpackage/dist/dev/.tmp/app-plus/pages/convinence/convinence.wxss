@@ -13,9 +13,9 @@ view {
 	margin-top: 26rpx;
 }
 .tag-img {
-	border-radius: 60rpx;
-	width: 110rpx;
-	height: 110rpx;
+	border-radius: 0rpx;
+	width: 100rpx;
+	height: 100rpx;
 }
 .title {
 	font-size: 36rpx;

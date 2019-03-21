@@ -18,6 +18,30 @@
 				<text class="uni-grid-12-text icon-text">{{item.name}}</text>
 			</view>
 		</view>
+		
+		<view class='feedback-title'>
+			<text>休闲娱乐</text>
+		</view>
+		
+		<view class="uni-grid-12 uni-common-mt feedback-body">
+			<view class="uni-grid-12-item" hover-class="uni-grid-12-item-hover" v-for="(item,index) in grids" :key="index" @tap="tapIcon(item)">
+				<image class="uni-grid-12-image tag-img" :src="item.icon"></image>
+				<text class="uni-grid-12-text icon-text">{{item.name}}</text>
+			</view>
+		</view>
+		
+		<view class='feedback-title'>
+			<text>社区生活</text>
+		</view>
+		
+		<view class="uni-grid-12 uni-common-mt feedback-body">
+			<view class="uni-grid-12-item" hover-class="uni-grid-12-item-hover" v-for="(item,index) in grids" :key="index" @tap="tapIcon(item)">
+				<image class="uni-grid-12-image tag-img" :src="item.icon"></image>
+				<text class="uni-grid-12-text icon-text">{{item.name}}</text>
+			</view>
+		</view>
+		
+		
 <!-- 		<view class="uni-title uni-common-mt">
 			<view class="uni-flex uni-row">
 				<view class="flex-item" @tap="openLeftList()">
@@ -51,36 +75,26 @@
 				newsList: [],
 				tabIndex: 0,
 				grids: [{
-					name: '最新',
+					name: 'item1',
 					id: 0,
 					ref: 'new',
-					icon: 'http://placehold.it/150x150'
+					icon: '../../static/img/item_icon1.png'
 				}, {
-					name: '大公司',
+					name: 'item2',
 					id: 23,
 					ref: 'company',
-					icon: 'http://placehold.it/150x150'
+					icon: '../../static/img/item_icon2.png'
 				}, {
-					name: '内容',
+					name: 'item3',
 					id: 223,
 					ref: 'content',
-					icon: 'http://placehold.it/150x150'
+					icon: '../../static/img/item_icon3.png'
 				}, {
-					name: '消费',
+					name: 'item4',
 					id: 221,
 					ref: 'xiaofei',
-					icon: 'http://placehold.it/150x150'
-				}, {
-					name: '娱乐',
-					id: 225,
-					ref: 'yule',
-					icon: 'http://placehold.it/150x150'
-				}, {
-					name: '区块链',
-					id: 208,
-					ref: 'qukuailian',
-					icon: 'http://placehold.it/150x150'
-				}, ],
+					icon: '../../static/img/item_icon4.png'
+				} ],
 			}
 		},
 		onLoad: function() {
@@ -178,9 +192,9 @@
 	}
 
 	.tag-img {
-		border-radius: 60upx;
-		width: 110upx;
-		height: 110upx;
+		border-radius: 0upx;
+		width: 100upx;
+		height: 100upx;
 	}
 
 	.title {
